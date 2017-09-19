@@ -13,10 +13,6 @@ class Square:
         return self.length
 
     @property
-    def height(self):
-        return self._height
-
-    @property
     def area(self):
         return self._width ** 2 
 
